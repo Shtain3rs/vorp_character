@@ -7,7 +7,7 @@ Config.Align = "top-left" -- menu
 Lang = "English"
 
 --* when player choosing a name  make sure it doesn't contain any of the words in the list below
-Config.BannedNames = { "Arthur", "Marshton", "Shit", "Dick" } --* you can add more words
+Config.BannedNames = { "" } --* you can add more words
 
 Config.AllowPlayerDeleteCharacter = true
 
@@ -15,22 +15,6 @@ Config.ReloadCharCommand = "rc"
 
 -- after creating character player will spawn here
 Config.SpawnCoords = {
-    { -- BLW
-        position = vector3(-687.3, -1242.249, 43.1),
-        heading = 90.58
-    },
-    { -- RHO
-        position = vector3(1227.77, -1304.7, 76.95),
-        heading = 140.49
-    },
-    { -- Emerald
-        position = vector3(1526.07, 444.58, 90.73),
-        heading = 265.95
-    },
-    { -- VAL
-        position = vector3(-174.3, 621.18, 114.08),
-        heading = 240.38
-    },
     { -- Flatneck
         position = vector3(-330.5, -350.76, 88.09),
         heading = 20.96
